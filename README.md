@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/psg_lite.svg)](https://crates.io/crates/psg_lite)
 [![Documentation](https://docs.rs/psg_lite/badge.svg)](https://docs.rs/psg_lite)
-[![Build Status](https://github.com/ain1084/psg_lite/workflows/Rust/badge.svg)](https://github.com/ain1084/psg_lite/actions?query=workflow%3ARust)
+[![Build Status](https://github.com/ain1084/rust_psg_lite/workflows/Rust/badge.svg)](https://github.com/ain1084/rust_psg_lite/actions?query=workflow%3ARust)
 ![Crates.io License](https://img.shields.io/crates/l/psg_lite)
 
 This crate generates PCM waveforms similar to those of the AY-3-8910 and its
