@@ -1,0 +1,25 @@
+[package]
+name = "psg_lite"
+version = "0.1.0"
+edition = "2021"
+authors = ["Seiji Ainoguchi <seiji.ainoguchi@gmail.com>"]
+description = "This crate generates PCM waveforms similar to those of the AY-3-8910 and its compatible chips."
+homepage = "https://github.com/ain1084/psg_lite"
+repository = "https://github.com/ain1084/psg_lite"
+documentation = "https://docs.rs/psg_lite"
+readme = "README.md"
+keywords = ["PSG", "audio", "waveform", "embedded"]
+categories = ["multimedia::audio", "embedded", "no-std"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+bitflags = "2.3.3"
+paste = "1.0.15"
+
+[dev-dependencies]
+direct_ring_buffer = "0.2.0"
+tinyaudio = "0.1.3"
+
+[features]
+default = ["float"]
+float = []
