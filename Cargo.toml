@@ -1,6 +1,6 @@
 [package]
 name = "psg_lite"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Seiji Ainoguchi <seiji.ainoguchi@gmail.com>"]
 description = "This crate generates PCM waveforms similar to those of the AY-3-8910 and its compatible chips."
